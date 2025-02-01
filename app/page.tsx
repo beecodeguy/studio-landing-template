@@ -1,5 +1,6 @@
 import { AboutSection } from "@/components/about-section";
 import { ContactSection } from "@/components/contact-section";
+import Footer from "@/components/footer";
 import Gallery from "@/components/gallery";
 import { HeroSection } from "@/components/hero-section";
 import Navbar from "@/components/navbar";
@@ -17,6 +18,10 @@ export default function Home() {
       <AboutSection />
       <Testimonials />
       <ContactSection />
+      <Footer
+        developerName="BeecodeGuy"
+        developerUrl="https://beecodeguy.github.io/"
+      />
     </main>
   );
 }
